@@ -1,0 +1,66 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#video{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    padding: 3px 22px;
+    color: white;
+}
+#video:hover{
+    border-radius: 40px;
+    border-width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 12, 146);
+}
+.previous{ 
+    margin-right: 1238px;
+    list-style: none;
+    background-color: rgb(143, 143, 143);
+    border-radius: 5px;
+}
+.previous li{
+    list-style: none;   
+}
+.previous li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.previous:hover{
+    background-color:rgb(194, 194, 194) ;
+    color: rgb(255, 255, 255);
+}
+.link{
+    margin: 1px;
+    padding: 18px 41px;
+    display: block;
+    float: left;
+    width: 60px
+}
+#facebook{
+    width: 10px;
+}
+#instagram{
+    width: 20px;
+
+}
+#linkden{
+    width: 20px;
+    
+}
+#discord{
+    width: 25px;
+    position: absolute;
+}
+
+.footer{
+    display: flow-root;
+    text-align: center;
+    color: rgb(46, 33, 99);
+    padding: 15px;
+    margin: 12px;
+}

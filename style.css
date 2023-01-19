@@ -1,0 +1,199 @@
+dragon/* index.html css */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --navbar-height: 59px;
+}
+#home {
+  /* 766 765 55% */
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+#home::before {
+  content: "";
+  background: url(img/home.png) no-repeat center/cover;
+  position: absolute;
+  height: 440px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+#about {
+  position: relative;
+}
+#contact {
+  position: relative;
+}
+.navbar {
+  /* display: flex; */
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.navbar::before {
+  content: "";
+  background-color: black;
+  border-radius: 12px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.navbar ul li a:hover {
+  /* You can change the size of the font on hover like this
+  font-size: 1.5em; */
+  border-radius: 40px;
+  background-color: rgb(255, 253, 253);
+  color: rgb(55, 48, 160);
+}
+.navbar a:active {
+  /* you can change the font size on active like this
+  font-size: 2.5em; */
+  background-color: whitesmoke;
+  color: burlywood;
+}
+
+.fiverr {
+  display: flex;
+  text-decoration: none;
+  position: relative;
+  padding: 3px 20px;
+  color: white;
+}
+.fiverr:hover {
+  border-radius: 40px;
+  background-color: #f2f2f2;
+  color: rgb(0, 0, 255);
+}
+.pic {
+  cursor: pointer;
+
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  width: 200px;
+}
+.welcome {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+.about {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.about::before {
+  content: "";
+  background-color: floralwhite;
+  position: absolute;
+  height: 565px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+.video {
+  cursor: pointer;
+
+  width: 98%;
+  height: 140%;
+}
+
+.info {
+  cursor: pointer;
+  align-content: start;
+  display: block;
+  border: 2px solid brown;
+  padding: 37px;
+  margin: 181px 12px;
+  border-radius: 28px;
+  background: #f2f2f2;
+  margin-bottom: 0px;
+  width: 600px;
+}
+.info li span{
+  text-transform: uppercase;
+}
+
+.info1 {
+  cursor: pointer;
+
+  align-content: start;
+  display: block;
+  border: 2px solid brown;
+  padding: 37px;
+  margin: 12px 12px;
+  border-radius: 28px;
+  background: #f2f2f2;
+  margin-bottom: 50px;
+  width: 300px;
+}
+#about {
+  position: relative;
+}
+.video {
+  margin: 10px;
+}
+
+#facebook {
+  width: 10px;
+}
+#instagram {
+  width: 20px;
+}
+#linkden {
+  width: 20px;
+}
+#discord {
+  width: 40px;
+}
+
+.footer {
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(46, 33, 99);
+}
+.footer1{
+  cursor: pointer;
+  color: rgb(46, 33, 99);
+
+  text-decoration: none;
+}
